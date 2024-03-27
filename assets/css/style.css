@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+img {
+    height: auto;
+    width: 60%;
+    margin-bottom: 44px;
+}
+
+.container {
+    margin-top: 70px;
+    height: 800px;
+    border-radius: 3%;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (min-width: 992px) {
+    iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
